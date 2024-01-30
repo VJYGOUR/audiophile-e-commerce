@@ -7,10 +7,10 @@ import HeadphoneII from '../secondpage/HeadphoneII.jsx';
 import HdSpER from '../FirstPage/HdSpER.jsx';
 import AboveFooter from '../FirstPage/AboveFooter.jsx'
 import Footer from '../FirstPage/Footer.jsx'
-import { useProject } from '../contexts/PostContext.jsx';
+
 
 function Headphones() {
-  const{updateisElement}=useProject()
+  
   return (
     <>
     <div className='relative'>
@@ -20,7 +20,7 @@ function Headphones() {
         <Navbar />
         <Cart/>
             {/*--------------------------------ABSOLUTE ELEMENT----------------------------------------*/}
-      <header onClick={updateisElement} className=" bg-black">
+      <header  className=" bg-black">
       <Header title={'Headphones'}/>
       </header>
       <main>
