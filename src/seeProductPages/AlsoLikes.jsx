@@ -1,5 +1,5 @@
 
-import Buttonss from "../buttons/buttonss"
+import Buttonss from "../buttons/Buttonss"
 const newArrr=[0,1,2]
 let newArrr1=[0,1,2,3,4]
 function AlsoLikes({imagess1,imageArr}) {
