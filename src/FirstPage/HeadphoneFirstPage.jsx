@@ -1,4 +1,4 @@
-import Buttonss from "../buttons/buttonss"
+import Buttonss from "../buttons/Buttonss"
 import {useAnimation,motion} from 'framer-motion'
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
