@@ -1,0 +1,6 @@
+.bef:before{
+    content: attr(data-content);
+    padding-right: 1rem;
+    color: hsl(22,65%,57%) ;
+    font-weight: 700;
+}
