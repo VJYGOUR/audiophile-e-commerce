@@ -1,4 +1,4 @@
-import Buttonss from "../buttons/buttonss"
+import Buttonss from "../buttons/Buttonss"
 
 function ProductDetails({data}) {
     return (
