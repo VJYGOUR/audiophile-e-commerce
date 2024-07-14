@@ -14,7 +14,7 @@ function Checkout() {
              <Navbar hidecart={true} hidecart2={true}/>
              <Outlet/>
             {submitt && <BackToHome/>}
-             <button onClick={()=> back(-1)} className="mt-[8.5rem] ml-8 py-8  text-black"> go back</button>
+             <button onClick={()=> back(-1)} className="mt-[8.5rem] ml-8 py-8  text-black"> go </button>
              <CartContainer/>
         </div>
     )
