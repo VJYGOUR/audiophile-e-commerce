@@ -10,7 +10,7 @@ function Cart() {
    const cartArr= items.map((el)=>(el.num*el.rate))
    const initialValue=0;
    const redFn=cartArr.reduce((acc,curr)=>acc+curr,initialValue)
-   console.log(items)
+   
 
     return (
         
